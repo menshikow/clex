@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/Users/madonnaprayer/dev/clex/build",
-  "command": "/usr/bin/clang++   -g -std=gnu++2b -arch arm64 -Wall -Wextra -pedantic -o CMakeFiles/clex.dir/src/main.cpp.o -c /Users/madonnaprayer/dev/clex/src/main.cpp",
-  "file": "/Users/madonnaprayer/dev/clex/src/main.cpp",
-  "output": "CMakeFiles/clex.dir/src/main.cpp.o"
-}
-]
