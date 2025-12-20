@@ -1,0 +1,3 @@
+/Users/madonnaprayer/dev/clex/build/CMakeFiles/clex.dir
+/Users/madonnaprayer/dev/clex/build/CMakeFiles/edit_cache.dir
+/Users/madonnaprayer/dev/clex/build/CMakeFiles/rebuild_cache.dir
