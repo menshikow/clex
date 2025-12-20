@@ -5,10 +5,12 @@ project(clex VERSION 0)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
+# You named your executable 'clex' here:
 add_executable(clex src/main.cpp)
 
 if(MSVC)
-    target_compile_options(minbpe PRIVATE /W4)
+    # So you must use 'clex' here too:
+    target_compile_options(clex PRIVATE /W4)
 else()
-    target_compile_options(minbpe PRIVATE -Wall -Wextra -pedantic)
+    target_compile_options(clex PRIVATE -Wall -Wextra -pedantic)
 endif()

@@ -76,15 +76,15 @@ CMakeFiles/clex.dir/src/main.cpp.o: CMakeFiles/clex.dir/flags.make
 CMakeFiles/clex.dir/src/main.cpp.o: /Users/madonnaprayer/dev/clex/src/main.cpp
 CMakeFiles/clex.dir/src/main.cpp.o: CMakeFiles/clex.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/madonnaprayer/dev/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/clex.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clex.dir/src/main.cpp.o -MF CMakeFiles/clex.dir/src/main.cpp.o.d -o CMakeFiles/clex.dir/src/main.cpp.o -c /Users/madonnaprayer/dev/clex/src/main.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clex.dir/src/main.cpp.o -MF CMakeFiles/clex.dir/src/main.cpp.o.d -o CMakeFiles/clex.dir/src/main.cpp.o -c /Users/madonnaprayer/dev/clex/src/main.cpp
 
 CMakeFiles/clex.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/clex.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/madonnaprayer/dev/clex/src/main.cpp > CMakeFiles/clex.dir/src/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/madonnaprayer/dev/clex/src/main.cpp > CMakeFiles/clex.dir/src/main.cpp.i
 
 CMakeFiles/clex.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clex.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/madonnaprayer/dev/clex/src/main.cpp -o CMakeFiles/clex.dir/src/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/madonnaprayer/dev/clex/src/main.cpp -o CMakeFiles/clex.dir/src/main.cpp.s
 
 # Object files for target clex
 clex_OBJECTS = \
