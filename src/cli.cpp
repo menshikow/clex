@@ -1,3 +1,11 @@
+/**
+ * @file cli.cpp
+ * @brief Command-line interface for BPE tokenizer
+ * 
+ * Provides user-friendly CLI handlers for training, encoding, decoding,
+ * and testing the tokenizer.
+ */
+
 #include "bpe.h"
 #include <fstream>
 #include <iostream>

@@ -1,3 +1,10 @@
+/**
+ * @file io.cpp
+ * @brief File I/O operations for BPE tokenizer
+ *
+ * Handles reading files, saving models, and loading trained tokenizers.
+ */
+
 #include "bpe.h"
 #include <algorithm>
 #include <fstream>
