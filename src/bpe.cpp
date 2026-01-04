@@ -1,11 +1,3 @@
-/**
- * @file bpe.cpp
- * @brief Core BPE algorithm implementation
- * 
- * Implements the Byte Pair Encoding algorithm for text tokenization.
- * This module contains the core training, encoding, and decoding logic.
- */
-
 #include "bpe.h"
 #include <algorithm>
 #include <print>
@@ -147,4 +139,3 @@ std::string decode(const std::vector<int> &ids, const Vocabulary &vocab) {
 }
 
 } // namespace bpe
-

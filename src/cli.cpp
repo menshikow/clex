@@ -1,11 +1,3 @@
-/**
- * @file cli.cpp
- * @brief Command-line interface for BPE tokenizer
- * 
- * Provides user-friendly CLI handlers for training, encoding, decoding,
- * and testing the tokenizer.
- */
-
 #include "bpe.h"
 #include <fstream>
 #include <iostream>
@@ -34,8 +26,9 @@ void print_usage(const char *program_name) {
 
 int handle_train(int argc, char *argv[]) {
   if (argc < 5) {
-    std::println(std::cerr,
-                 "Error: train requires input_file, output_model, and vocab_size");
+    std::println(
+        std::cerr,
+        "Error: train requires input_file, output_model, and vocab_size");
     return 1;
   }
 
@@ -188,4 +181,3 @@ int handle_test() {
 }
 
 } // namespace bpe
-
